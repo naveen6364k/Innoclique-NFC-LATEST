@@ -1,0 +1,17 @@
+{"properties": [
+  {
+    "name": "jwt.auth.converter.resource-id",
+    "type": "java.lang.String",
+    "description": "Secondary Object details of Role - Example Resource ID - roles"
+  },
+  {
+    "name": "jwt.auth.converter.principle-attribute",
+    "type": "java.lang.String",
+    "description": "Property to set as principal attribute"
+  },
+  {
+    "name": "jwt.auth.converter.role_claim_name",
+    "type": "java.lang.String",
+    "description": "Parent Property name of Role Ex - realm_access"
+  }
+]}

@@ -1,0 +1,19 @@
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8080/realms/Innoclique
+          jwk-set-uri: ${spring.security.oauth2.resourceserver.jwt.issuer-uri}/protocol/openid-connect/certs
+  thymeleaf:
+    check-template-location: false
+    
+server:
+  port: 8081
+
+      
+jwt:
+  auth:
+    converter:
+      resource-id: roles
+      principle-attribute: preferred_username

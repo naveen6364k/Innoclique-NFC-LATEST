@@ -1,0 +1,8 @@
+{
+  "realm": "Innoclique",
+  "auth-server-url" : "http://localhost:8080",
+  "resource" : "NFC",
+  "credentials": {
+    "secret": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI5MTBkZGU1OC1hNGNhLTQ3YzktYmQyYS0wNjIwNzAxMWUzOGMifQ.eyJleHAiOjE3MDcwNjU3OTEsImlhdCI6MTcwNzA2NTQyNiwianRpIjoiYTE2NWRmODAtYjNkNS00ZTIxLTllNWItY2FmMjBlZmUzOWE2IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL3JlYWxtcy9Jbm5vY2xpcXVlIiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgwL3JlYWxtcy9Jbm5vY2xpcXVlIiwidHlwIjoiSW5pdGlhbEFjY2Vzc1Rva2VuIn0.TY8U1zn0xknpJuVzmmDY6s5Vk82fRfGz4PlyJB_Codc"
+  }
+}
