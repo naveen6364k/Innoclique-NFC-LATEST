@@ -71,11 +71,11 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-oauth2-authorization-server'
   	implementation 'org.springframework.boot:spring-boot-starter-security'
   	testImplementation 'org.springframework.security:spring-security-test'
-	implementation 'org.keycloak:keycloak-authz-client:22.0.1'
-	implementation 'org.keycloak:keycloak-admin-client-jakarta:21.0.1'
+	implementation 'org.keycloak:keycloak-authz-client'
+	implementation 'org.keycloak:keycloak-admin-client-jakarta'
 	implementation 'org.jboss.resteasy:resteasy-jackson2-provider:6.2.5.Final'
 	implementation group: 'org.springdoc', name: 'springdoc-openapi-starter-webmvc-ui', version: '2.0.3'
-    implementation 'mysql:mysql-connector-java:8.0.28' // Adjust version as per your MySQL version
+    implementation 'mysql:mysql-connector-java' // Adjust version as per your MySQL version
 
     // classpath 'org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:4.4.1.3373'
 }
