@@ -52,7 +52,7 @@ public class UserManaementService {
 		userRepresentation.setLastName(userDetails.getLastName());
 		userRepresentation.setEmail(userDetails.getEmail());
 		userRepresentation.setEnabled(userDetails.getEnabled());
-		userRepresentation.setEmailVerified(userDetails.getEmailverified());
+		userRepresentation.setEmailVerified(userDetails.getEmailVerified());
 
 		Response response = getRealm().users().create(userRepresentation);
 

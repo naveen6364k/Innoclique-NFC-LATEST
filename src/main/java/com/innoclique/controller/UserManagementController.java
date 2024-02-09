@@ -122,7 +122,7 @@ public class UserManagementController {
 		}
     	
     	} catch (Exception e) {
-    		log.error("Exception occured in selfPasswordReset : {} ", e.getMessage());
+    		log.error("Exception occurred in selfPasswordReset : {} ", e.getMessage());
      		return new ResponseEntity<String>("Invalid user name or password", HttpStatus.UNAUTHORIZED);
 
 		}

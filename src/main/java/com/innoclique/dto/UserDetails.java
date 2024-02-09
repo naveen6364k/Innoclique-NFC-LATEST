@@ -19,7 +19,7 @@ public class UserDetails {
     private String email;
     private String username;
     private String password;
-    private Boolean emailverified;
+    private Boolean emailVerified;
     private Boolean enabled;
     
 }

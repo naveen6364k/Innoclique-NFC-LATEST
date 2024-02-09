@@ -2,6 +2,7 @@ package com.innoclique.config;
 
 import static org.springframework.security.config.http.SessionCreationPolicy.STATELESS;
 
+import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.method.configuration.EnableMethodSecurity;
@@ -34,7 +35,9 @@ public class SecurityConfig {
 	            // -- Swagger UI v3 (OpenAPI)
 	            "/v3/api-docs/**",
 	            "/swagger-ui/**",
-	            "/api/v1/login"
+	            "/api/v1/login",
+			    "/patientDetails/**",
+				 "/patientDetails/**"
 	            // other public endpoints of your API may be appended to this array
 	    };
 
