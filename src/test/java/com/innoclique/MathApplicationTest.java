@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.innoclique;
 
 /**
  * @author Naveen Kumar Chintala
